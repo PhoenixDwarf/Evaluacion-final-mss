@@ -1,4 +1,4 @@
-# Evaluación final unidad 3 - v1.0.0
+# Evaluación final unidad 3 - v1.1.0
 ## Uniagustiniana 2026
 **Estado:** Stable
 **Versionamiento:** SemVer 2.0.0
@@ -69,3 +69,26 @@ podman volume prune -f
 ```batch
 podman-compose up -d --build
 ```
+
+---
+
+# Changelog
+
+## [1.1.0] - 2026-04-13
+### Added
+- Nueva columna `genero` en la tabla `artistas` de la base de datos MariaDB.
+- Visualización del Género Musical en la tabla de la interfaz web.
+- Modelo de datos actualizado en FastAPI para soportar el nuevo campo.
+
+### Changed
+- Actualizada la versión de la aplicación a `1.1.0` en el objeto `FastAPI`.
+
+## [1.0.0] - 2026-04-14
+### Added
+- Nueva columna `youtube_url` en la tabla `artistas` de la base de datos MariaDB.
+- Visualización del enlace de YouTube en la tabla de la interfaz web.
+- Modelo de datos actualizado en FastAPI para soportar el nuevo campo.
+- Se agregó un enlace en la interfaz para ver el último éxito del artista en YouTube.
+
+### Changed
+- Actualizada la versión de la aplicación a `1.1.0` en el README.md.
